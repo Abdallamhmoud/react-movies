@@ -66,7 +66,7 @@ function App() {
     <Route path='/register' element={<Register />}/>
     <Route path='/login' element={<Login decodeToken={getToken}/>} /> 
     <Route path='*' element={<div className='vh-100 d-flex justify-content-center align-items-center'>
-      <h1> 404 </h1>
+      <h1>  </h1>
     </div>}/> 
   </Routes>
   
